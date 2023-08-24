@@ -1,6 +1,7 @@
 module "network" {
   source  = "app.terraform.io/afristore/network/google"
   version = "3.4.0"
+  project_id = "afristore"
   # insert required variables here
 }
 
